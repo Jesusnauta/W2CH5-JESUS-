@@ -2,15 +2,11 @@
   "env": {
     "browser": true,
     "es2021": true,
+    "node": true,
     "jest": true
   },
-  "extends": "xo",
-  "overrides": [
-    {
-      "extends": ["xo-prettier"],
-      "files": ["*.ts", "*.tsx"]
-    }
-  ],
+  "extends": ["xo", "prettier"],
+  "overrides": [],
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module"
