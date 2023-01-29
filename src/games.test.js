@@ -15,5 +15,9 @@ describe("Given an array of length 9", () => {
       const result = countNeighbor(0, 1);
       expect(result).toBe(1);
     });
+    test("Should be a neighbor cont case 3 ", () => {
+      const result = countNeighbor(0, 1);
+      expect(result).toBe(1);
+    });
   });
 });
