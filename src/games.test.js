@@ -1,8 +1,9 @@
-import { countNeighbor } from "./games";
+import { countNeighbor, playGame } from "./games";
 
 describe("Given an array of length 9", () => {
   describe("When we call countNeighbor function", () => {
     test("Should be a neighbor count ", () => {
+      playGame();
       const result = countNeighbor(0, 0);
       expect(result).toBe(2);
     });
