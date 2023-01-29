@@ -6,7 +6,6 @@
     "jest": true
   },
   "extends": ["xo", "prettier"],
-  "overrides": [],
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module"
