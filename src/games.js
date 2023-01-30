@@ -8,7 +8,6 @@ let newArray = [[], [], []];
 
 export const countNeighbor = (file, column) => {
   let myNeighbors = 0;
-  console.log(column);
   for (let i = file - 1; i <= file + 1 && i < array.length; i++) {
     for (let x = column - 1; x <= column + 1 && x < array.length; x++) {
       if (i === -1) {
@@ -56,3 +55,4 @@ setInterval(() => {
   array = newArray;
   newArray = [[], [], []];
 }, 500);
+
